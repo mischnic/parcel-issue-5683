@@ -1,0 +1,11 @@
+{
+	"devDependencies": {
+		"@babel/core": "^7.12.3"
+	},
+	"scripts": {
+		"start": "parcel src/demo/*.html --no-hmr"
+	},
+	"@parcel/bundler-default": {
+		"minBundleSize": 0
+	}
+}
